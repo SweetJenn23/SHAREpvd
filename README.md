@@ -111,8 +111,7 @@ at the end of ...Admin@org1.example.com/msp so that there is a space between ...
 channel join...
 * Step 28 - the last sentence should read *Your cursor will be on the k at the end of composerchannel.block*
 ### p. 95
-* Step 30 - the line you modified should look like this: ```docker exec peer0.org1.example.com sh -c "CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/users/Admin@org1.example.com/msp peer channel join -b composerchannel.block"
-```
+* Step 30 - the line you modified should look like this:```docker exec peer0.org1.example.com sh -c "CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/users/Admin@org1.example.com/msp peer channel join -b composerchannel.block"```
 * **Skip** steps 32 through 43
 ### p. 96
 * Step 46 - the output from the command in this step should look like this:
