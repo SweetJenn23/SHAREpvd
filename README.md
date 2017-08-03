@@ -103,6 +103,7 @@ peer chaincode invoke -n marbles -c '{"Args":["read_everything"]}' $FABRIC_TLS -
 ```grep x86_64 downloadFabric.sh```<br />
 ```grep s390x downloadFabric.sh```
 ### p. 94
+* Step 17 - this command spans lines in the PDF so copy/paste will fail. You can copy and paste it from here: ```cp -ipv startFabric.sh startFabric.sh.orig```
 * Step 20 - type ```2k``` instead of *3k* as listed in the instructions and this will put you on the line right under the comment that reads *Join peer0.org1.example.com to the channel*
 * Step 23 - type ```23dw``` instead of *28dw* as listed in the workbook and this will delete the next 23 words
 * Step 26 - type ```sh -c “CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/users/Admin@org1.example.com/msp``` and add a
